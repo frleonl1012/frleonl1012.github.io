@@ -58,7 +58,12 @@ function Navbar() {
               ))}
             </Box>
 
-            <Button href="#contact" variant="contained">
+            <Button
+              href="/CV_Francisca_Leon_2026.pdf"
+              target="_blank"
+              rel="noreferrer"
+              variant="contained"
+            >
               Descargar CV
             </Button>
           </Box>

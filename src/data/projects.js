@@ -56,6 +56,7 @@ export const projectGroups = [
       "Oracle",
       "Accesibilidad",
       "Clave Única",
+      "GitLab"
     ],
     accent:
       "linear-gradient(135deg, rgba(255, 244, 230, 0.96) 0%, rgba(254, 226, 226, 0.92) 52%, rgba(237, 233, 254, 0.92) 100%)",
