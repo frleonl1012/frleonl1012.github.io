@@ -1,12 +1,6 @@
-import {
-  Box,
-  Button,
-  Chip,
-  Container,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import { motion } from "framer-motion";
+import { siteContainerSx } from "../../theme/layout";
 
 const MotionBox = motion.create(Box);
 
@@ -31,14 +25,13 @@ function Hero() {
         }}
       />
 
-      <Container maxWidth="lg" sx={{ position: "relative" }}>
+      <Container maxWidth={false} sx={{ ...siteContainerSx, position: "relative" }}>
         <MotionBox
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           sx={{ maxWidth: 920 }}
         >
-
           <Typography
             sx={{
               color: "primary.main",
@@ -63,7 +56,7 @@ function Hero() {
           >
             Francisca León.
             <Box component="span" sx={{ display: "block", color: "text.soft" }}>
-              Desarrollo experiencias digitales sólidas y modernas.
+              Desarrolladora Full Stack
             </Box>
           </Typography>
 
@@ -88,21 +81,6 @@ function Hero() {
             <Button variant="outlined" href="#contact">
               Contactar
             </Button>
-          </Stack>
-
-          <Stack direction="row" spacing={1.2} flexWrap="wrap" useFlexGap sx={{ mt: 5 }}>
-            {["React", "MUI", "Framer Motion", "Spring Boot", "Oracle"].map((item) => (
-              <Chip
-                key={item}
-                label={item}
-                sx={{
-                  bgcolor: "rgba(255,255,255,0.84)",
-                  border: "1px solid",
-                  borderColor: "border.soft",
-                  fontWeight: 600,
-                }}
-              />
-            ))}
           </Stack>
         </MotionBox>
       </Container>

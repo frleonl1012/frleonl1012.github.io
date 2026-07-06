@@ -1,89 +1,93 @@
-export const projects = [
+export const projectGroups = [
   {
-    title: "Plataforma interna de gestión operativa",
-    description:
-      "Suite orientada a centralizar procesos internos, seguimiento de solicitudes y visualización de información crítica en una sola interfaz. Mi trabajo combinó construcción de vistas, conexión con servicios y evolución continua del producto.",
-    highlights: [
-      "Diseño de componentes reutilizables para acelerar nuevas pantallas.",
-      "Integración con servicios backend y manejo de estados complejos.",
-      "Mejoras en navegación, legibilidad de datos y consistencia visual.",
+    company: "Taller Digital SPA",
+    role: "Desarrollo web",
+    summary:
+      "Durante esta experiencia desarrollé sitios institucionales orientados a comunicación clara, administración simple de contenidos y una presencia digital consistente para organizaciones con foco público y cultural.",
+    tools: ["WordPress", "Bootstrap", "PHP", "MySQL", "Google Analytics"],
+    accent:
+      "linear-gradient(135deg, rgba(219, 234, 254, 0.95) 0%, rgba(224, 242, 254, 0.92) 48%, rgba(220, 252, 231, 0.92) 100%)",
+    projects: [
+      {
+        name: "Defensoría de la Niñez",
+        type: "WordPress",
+        description:
+          "Sitio institucional enfocado en informar, orientar y facilitar el acceso a contenidos de interés ciudadano.",
+        url: "https://www.defensorianinez.cl/",
+        image: "/projects/defensoria-ninez.png",
+        imageAlt: "Captura del sitio web Defensoría de la Niñez",
+        highlights: ["Arquitectura de contenido", "Sitio público", "Enfoque institucional"],
+      },
+      {
+        name: "Fundación Futuro",
+        type: "WordPress",
+        description:
+          "Proyecto web para difundir iniciativas, programas y recursos, priorizando claridad editorial y navegación simple.",
+        url: "https://www.fundacionfuturo.cl/",
+        image: "/projects/fundacion-futuro.png",
+        imageAlt: "Captura del sitio web Fundación Futuro",
+        highlights: ["Gestión de contenidos", "Experiencia editorial", "Sitio corporativo"],
+      },
+      {
+        name: "Parque Tantauco",
+        type: "WordPress",
+        description:
+          "Desarrollo de presencia digital para una marca ligada a naturaleza y conservación, con foco en contenido visual.",
+        url: "https://parquetantauco.cl/",
+        image: "/projects/parque-tantauco.png",
+        imageAlt: "Captura del sitio web Parque Tantauco",
+        highlights: ["Contenido visual", "Sitio de marca", "Comunicación digital"],
+      },
     ],
-    stack: ["React", "MUI", "JavaScript", "APIs REST", "Oracle"],
-    demoUrl: "#contact",
-    codeUrl: "#about",
-    preview: {
-      label: "dashboard.operaciones",
-      gradient:
-        "linear-gradient(135deg, rgba(234, 247, 255, 1) 0%, rgba(219, 239, 255, 1) 26%, rgba(220, 252, 231, 1) 100%)",
-      metrics: [
-        { label: "Módulos", value: "08" },
-        { label: "Usuarios", value: "1.2k" },
-        { label: "Tiempo", value: "-32%" },
-      ],
-      bars: [86, 54, 74, 47, 92, 68, 58, 76, 51, 44, 83, 62],
-      lines: [
-        { color: "rgba(248,113,113,0.95)", offset: 22 },
-        { color: "rgba(125,211,252,0.95)", offset: 39 },
-        { color: "rgba(74,222,128,0.95)", offset: 57 },
-      ],
-    },
   },
   {
-    title: "Portal transaccional con foco en experiencia de usuario",
-    description:
-      "Implementación y ajuste de funcionalidades para flujos con múltiples reglas de negocio, priorizando claridad, feedback visual y estabilidad. La propuesta buscó reducir fricción y facilitar tareas recurrentes del usuario.",
-    highlights: [
-      "Refactor de pantallas críticas para hacerlas más intuitivas y mantenibles.",
-      "Validaciones de formularios y estados visuales alineados con UX.",
-      "Coordinación entre frontend y backend para nuevas capacidades.",
+    company: "Comtec en licitación con Defensoría Penal Pública",
+    role: "Desarrolladora Full Stack",
+    summary:
+      "Participé en soluciones orientadas a atención ciudadana, procesos internos y acceso digital a servicios, trabajando en interfaces, integración y evolución funcional.",
+    tools: [
+      "React",
+      "Vite",
+      "JavaScript",
+      "MUI",
+      "Java",
+      "Spring Boot",
+      "API REST",
+      "Oracle",
+      "Accesibilidad",
+      "Clave Única",
     ],
-    stack: ["React", "Framer Motion", "MUI", "Spring Boot", "SQL"],
-    demoUrl: "#contact",
-    codeUrl: "#about",
-    preview: {
-      label: "portal.usuarios",
-      gradient:
-        "linear-gradient(135deg, rgba(255, 244, 230, 1) 0%, rgba(255, 237, 213, 1) 35%, rgba(254, 226, 226, 1) 100%)",
-      metrics: [
-        { label: "Flujos", value: "14" },
-        { label: "Errores", value: "-41%" },
-        { label: "UX", value: "A11y" },
-      ],
-      bars: [38, 59, 44, 88, 61, 79, 53, 66, 45, 72, 57, 84],
-      lines: [
-        { color: "rgba(251,146,60,0.95)", offset: 18 },
-        { color: "rgba(244,114,182,0.95)", offset: 41 },
-        { color: "rgba(96,165,250,0.95)", offset: 61 },
-      ],
-    },
-  },
-  {
-    title: "Evolución de ecosistema web corporativo",
-    description:
-      "Participación en mantenimiento evolutivo, ajustes de rendimiento y desarrollo de nuevas secciones para una plataforma empresarial, equilibrando continuidad operativa con mejoras perceptibles para el usuario.",
-    highlights: [
-      "Optimización de tiempos de carga y simplificación de vistas saturadas.",
-      "Desarrollo de componentes consistentes para nuevos requerimientos.",
-      "Soporte a integraciones y adecuaciones funcionales en producción.",
+    accent:
+      "linear-gradient(135deg, rgba(255, 244, 230, 0.96) 0%, rgba(254, 226, 226, 0.92) 52%, rgba(237, 233, 254, 0.92) 100%)",
+    projects: [
+      {
+        name: "Mi Defensoría",
+        type: "Plataforma digital",
+        description:
+          "Solución orientada a centralizar funcionalidades y mejorar la experiencia de usuarios en sus gestiones con la institución.",
+        image: "/projects/mi-defensoria.png",
+        imageAlt: "Captura del sistema Mi Defensoría",
+        highlights: ["Frontend", "Flujos de usuario", "Integración de servicios"],
+      },
+      {
+        name: "Concursos DPP",
+        type: "Sistema interno",
+        description:
+          "Proyecto enfocado en procesos de postulación y administración, con interfaces claras y soporte para múltiples estados.",
+        image: "/projects/concursos-dpp.png",
+        imageAlt: "Captura del sistema Concursos DPP",
+        highlights: ["Formularios", "Validaciones", "Procesos internos"],
+      },
+      {
+        name: "Solicitudes Ciudadanas OIRS",
+        type: "Canal ciudadano",
+        description:
+          "Desarrollo para recepción y seguimiento de solicitudes ciudadanas, priorizando accesibilidad y trazabilidad.",
+        url: "https://app.dpp.cl/solicitudes-ciudadanas/",
+        image: "/projects/solicitudes-ciudadanas.png",
+        imageAlt: "Captura del sistema Solicitudes Ciudadanas OIRS",
+        highlights: ["Atención ciudadana", "Seguimiento", "Usabilidad"],
+      },
     ],
-    stack: ["Java", "Spring Boot", "HTML/CSS", "JavaScript", "Git"],
-    demoUrl: "#contact",
-    codeUrl: "#about",
-    preview: {
-      label: "suite.corporativa",
-      gradient:
-        "linear-gradient(135deg, rgba(240, 249, 255, 1) 0%, rgba(224, 242, 254, 1) 24%, rgba(233, 213, 255, 1) 100%)",
-      metrics: [
-        { label: "Release", value: "24/7" },
-        { label: "Soporte", value: "QA" },
-        { label: "Entrega", value: "+CI" },
-      ],
-      bars: [71, 49, 61, 56, 83, 69, 36, 77, 59, 64, 52, 73],
-      lines: [
-        { color: "rgba(129,140,248,0.95)", offset: 20 },
-        { color: "rgba(34,197,94,0.95)", offset: 43 },
-        { color: "rgba(244,114,182,0.95)", offset: 58 },
-      ],
-    },
   },
 ];

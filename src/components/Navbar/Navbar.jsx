@@ -1,4 +1,5 @@
 import { AppBar, Box, Button, Container, Toolbar, Typography } from "@mui/material";
+import { siteContainerSx } from "../../theme/layout";
 
 const navItems = [
   { label: "Proyectos", href: "#projects" },
@@ -19,7 +20,7 @@ function Navbar() {
         borderColor: "border.soft",
       }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth={false} sx={siteContainerSx}>
         <Toolbar disableGutters sx={{ justifyContent: "space-between", py: 1.2 }}>
           <Typography
             component="a"
